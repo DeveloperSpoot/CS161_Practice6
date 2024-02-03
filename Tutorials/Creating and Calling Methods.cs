@@ -7,16 +7,34 @@
             InitializeComponent();
         }
 
-        private void goButton_Click(object sender, EventArgs e)
+        bool lightOn = false;
+
+        private void switchButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is the go button method.");
-            DisplayMessage();
-            MessageBox.Show("Wow shocker... We're back in the go button method...");
+            if (!lightOn)
+            {
+                lightOn = !lightOn;
+                setlightOn();
+                return;
+            }
+
+            lightOn = !lightOn;
+            setLightOff();
+
         }
 
-        private void DisplayMessage()
+        private void setlightOn()
         {
-            MessageBox.Show("Omg look at that! This message was triggered... Through another method... 😱");
+            lightOn = true;
+            lightPictureBox.Image = CS161_Practice6.Resource1.LightOn;
+            statusLabel.Text = "ON";
+        }
+
+        private void setLightOff()
+        {
+            lightOn = false;
+            lightPictureBox.Image = CS161_Practice6.Resource1.LightOff;
+            statusLabel.Text = "OFF";
         }
 
         private void exitButton_Click(object sender, EventArgs e)
