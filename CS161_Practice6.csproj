@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="Programming Problems\" />
-    <Folder Include="Tutorials\" />
   </ItemGroup>
 
 </Project>

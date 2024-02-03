@@ -1,3 +1,5 @@
+using CS161_Practice6.Tutorials;
+
 namespace CS161_Practice6
 {
     public partial class Main : Form
@@ -9,7 +11,8 @@ namespace CS161_Practice6
 
         private void creatingCallingMethodsButton_Click(object sender, EventArgs e)
         {
-
+            Creating_and_Calling_Methods form = new Creating_and_Calling_Methods();
+            form.Show();
         }
 
         private void passingArgumentMethod_Click(object sender, EventArgs e)
