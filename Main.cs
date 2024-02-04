@@ -38,21 +38,6 @@ namespace CS161_Practice6
             Modularizing_Input_Validation form = new Modularizing_Input_Validation();
             form.Show();
         }
-        private void stepIntoCmdButton_Click(object sender, EventArgs e)
-        {
-            Step_Into_Cmd form = new Step_Into_Cmd();
-            form.Show();
-        }
-
-        private void stepOverCmdButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void stepOutCmdButton_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void retailPriceCalcButton_Click(object sender, EventArgs e)
         {

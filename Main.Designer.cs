@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.modularizingInputValidationButton = new System.Windows.Forms.Button();
             this.stepOutCmdButton = new System.Windows.Forms.Button();
             this.stepOverCmdButton = new System.Windows.Forms.Button();
             this.stepIntoCmdButton = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.kineticEnergyButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.retailPriceCalcButton = new System.Windows.Forms.Button();
-            this.modularizingInputValidationButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +65,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tutorials";
             // 
+            // modularizingInputValidationButton
+            // 
+            this.modularizingInputValidationButton.Location = new System.Drawing.Point(6, 244);
+            this.modularizingInputValidationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.modularizingInputValidationButton.Name = "modularizingInputValidationButton";
+            this.modularizingInputValidationButton.Size = new System.Drawing.Size(255, 29);
+            this.modularizingInputValidationButton.TabIndex = 7;
+            this.modularizingInputValidationButton.Text = "Modularizing Input Validation";
+            this.modularizingInputValidationButton.UseVisualStyleBackColor = true;
+            this.modularizingInputValidationButton.Click += new System.EventHandler(this.modularizingInputValidationButton_Click);
+            // 
             // stepOutCmdButton
             // 
             this.stepOutCmdButton.Location = new System.Drawing.Point(8, 406);
@@ -74,6 +85,7 @@
             this.stepOutCmdButton.TabIndex = 6;
             this.stepOutCmdButton.Text = "Step Out Cmd";
             this.stepOutCmdButton.UseVisualStyleBackColor = true;
+            this.stepOutCmdButton.Click += new System.EventHandler(this.modularizingInputValidationButton_Click);
             // 
             // stepOverCmdButton
             // 
@@ -84,6 +96,7 @@
             this.stepOverCmdButton.TabIndex = 5;
             this.stepOverCmdButton.Text = "Step Over Cmd";
             this.stepOverCmdButton.UseVisualStyleBackColor = true;
+            this.stepOverCmdButton.Click += new System.EventHandler(this.modularizingInputValidationButton_Click);
             // 
             // stepIntoCmdButton
             // 
@@ -94,6 +107,7 @@
             this.stepIntoCmdButton.TabIndex = 4;
             this.stepIntoCmdButton.Text = "Step Into Cmd";
             this.stepIntoCmdButton.UseVisualStyleBackColor = true;
+            this.stepIntoCmdButton.Click += new System.EventHandler(this.modularizingInputValidationButton_Click);
             // 
             // valueReturningButton
             // 
@@ -189,17 +203,6 @@
             this.retailPriceCalcButton.TabIndex = 1;
             this.retailPriceCalcButton.Text = "Retail Price Calculator";
             this.retailPriceCalcButton.UseVisualStyleBackColor = true;
-            // 
-            // modularizingInputValidationButton
-            // 
-            this.modularizingInputValidationButton.Location = new System.Drawing.Point(6, 244);
-            this.modularizingInputValidationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.modularizingInputValidationButton.Name = "modularizingInputValidationButton";
-            this.modularizingInputValidationButton.Size = new System.Drawing.Size(255, 29);
-            this.modularizingInputValidationButton.TabIndex = 7;
-            this.modularizingInputValidationButton.Text = "Modularizing Input Validation";
-            this.modularizingInputValidationButton.UseVisualStyleBackColor = true;
-            this.modularizingInputValidationButton.Click += new System.EventHandler(this.modularizingInputValidationButton_Click);
             // 
             // Main
             // 
