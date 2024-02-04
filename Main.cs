@@ -60,7 +60,8 @@ namespace CS161_Practice6
 
         private void joesAutoButton_Click(object sender, EventArgs e)
         {
-
+            Joes_Automotive form = new Joes_Automotive();
+            form.Show();
         }
 
     }
