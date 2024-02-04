@@ -23,7 +23,8 @@ namespace CS161_Practice6
 
         private void outputPraramButton_Click(object sender, EventArgs e)
         {
-
+            Using_Output_Param form = new Using_Output_Param();
+            form.Show();
         }
 
         private void valueReturningButton_Click(object sender, EventArgs e)
