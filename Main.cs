@@ -54,7 +54,8 @@ namespace CS161_Practice6
 
         private void kineticEnergyButton_Click(object sender, EventArgs e)
         {
-
+            Kinetic_Energy form = new Kinetic_Energy();
+            form.Show();
         }
 
         private void joesAutoButton_Click(object sender, EventArgs e)
