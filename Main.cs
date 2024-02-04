@@ -29,7 +29,8 @@ namespace CS161_Practice6
 
         private void valueReturningButton_Click(object sender, EventArgs e)
         {
-
+            Value_Returning form = new Value_Returning();
+            form.Show();
         }
 
         private void stepIntoCmdButton_Click(object sender, EventArgs e)
