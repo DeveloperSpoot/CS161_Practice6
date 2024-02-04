@@ -28,174 +28,193 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox1 = new GroupBox();
-            stepOutCmdButton = new Button();
-            stepOverCmdButton = new Button();
-            stepIntoCmdButton = new Button();
-            valueReturningButton = new Button();
-            outputPraramButton = new Button();
-            passingArgumentMethod = new Button();
-            creatingCallingMethodsButton = new Button();
-            groupBox2 = new GroupBox();
-            joesAutoButton = new Button();
-            kineticEnergyButton = new Button();
-            button1 = new Button();
-            retailPriceCalcButton = new Button();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.stepOutCmdButton = new System.Windows.Forms.Button();
+            this.stepOverCmdButton = new System.Windows.Forms.Button();
+            this.stepIntoCmdButton = new System.Windows.Forms.Button();
+            this.valueReturningButton = new System.Windows.Forms.Button();
+            this.outputPraramButton = new System.Windows.Forms.Button();
+            this.passingArgumentMethod = new System.Windows.Forms.Button();
+            this.creatingCallingMethodsButton = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.joesAutoButton = new System.Windows.Forms.Button();
+            this.kineticEnergyButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.retailPriceCalcButton = new System.Windows.Forms.Button();
+            this.modularizingInputValidationButton = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(stepOutCmdButton);
-            groupBox1.Controls.Add(stepOverCmdButton);
-            groupBox1.Controls.Add(stepIntoCmdButton);
-            groupBox1.Controls.Add(valueReturningButton);
-            groupBox1.Controls.Add(outputPraramButton);
-            groupBox1.Controls.Add(passingArgumentMethod);
-            groupBox1.Controls.Add(creatingCallingMethodsButton);
-            groupBox1.Location = new Point(11, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(240, 426);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Tutorials";
+            this.groupBox1.Controls.Add(this.modularizingInputValidationButton);
+            this.groupBox1.Controls.Add(this.stepOutCmdButton);
+            this.groupBox1.Controls.Add(this.stepOverCmdButton);
+            this.groupBox1.Controls.Add(this.stepIntoCmdButton);
+            this.groupBox1.Controls.Add(this.valueReturningButton);
+            this.groupBox1.Controls.Add(this.outputPraramButton);
+            this.groupBox1.Controls.Add(this.passingArgumentMethod);
+            this.groupBox1.Controls.Add(this.creatingCallingMethodsButton);
+            this.groupBox1.Location = new System.Drawing.Point(13, 15);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(274, 540);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Tutorials";
             // 
             // stepOutCmdButton
             // 
-            stepOutCmdButton.Location = new Point(8, 292);
-            stepOutCmdButton.Name = "stepOutCmdButton";
-            stepOutCmdButton.Size = new Size(223, 23);
-            stepOutCmdButton.TabIndex = 6;
-            stepOutCmdButton.Text = "Step Out Cmd";
-            stepOutCmdButton.UseVisualStyleBackColor = true;
-            stepOutCmdButton.Click += stepOutCmdButton_Click;
+            this.stepOutCmdButton.Location = new System.Drawing.Point(8, 406);
+            this.stepOutCmdButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.stepOutCmdButton.Name = "stepOutCmdButton";
+            this.stepOutCmdButton.Size = new System.Drawing.Size(255, 29);
+            this.stepOutCmdButton.TabIndex = 6;
+            this.stepOutCmdButton.Text = "Step Out Cmd";
+            this.stepOutCmdButton.UseVisualStyleBackColor = true;
             // 
             // stepOverCmdButton
             // 
-            stepOverCmdButton.Location = new Point(8, 247);
-            stepOverCmdButton.Name = "stepOverCmdButton";
-            stepOverCmdButton.Size = new Size(223, 23);
-            stepOverCmdButton.TabIndex = 5;
-            stepOverCmdButton.Text = "Step Over Cmd";
-            stepOverCmdButton.UseVisualStyleBackColor = true;
-            stepOverCmdButton.Click += stepOverCmdButton_Click;
+            this.stepOverCmdButton.Location = new System.Drawing.Point(8, 352);
+            this.stepOverCmdButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.stepOverCmdButton.Name = "stepOverCmdButton";
+            this.stepOverCmdButton.Size = new System.Drawing.Size(255, 29);
+            this.stepOverCmdButton.TabIndex = 5;
+            this.stepOverCmdButton.Text = "Step Over Cmd";
+            this.stepOverCmdButton.UseVisualStyleBackColor = true;
             // 
             // stepIntoCmdButton
             // 
-            stepIntoCmdButton.Location = new Point(9, 202);
-            stepIntoCmdButton.Name = "stepIntoCmdButton";
-            stepIntoCmdButton.Size = new Size(223, 23);
-            stepIntoCmdButton.TabIndex = 4;
-            stepIntoCmdButton.Text = "Step Into Cmd";
-            stepIntoCmdButton.UseVisualStyleBackColor = true;
-            stepIntoCmdButton.Click += stepIntoCmdButton_Click;
+            this.stepIntoCmdButton.Location = new System.Drawing.Point(9, 298);
+            this.stepIntoCmdButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.stepIntoCmdButton.Name = "stepIntoCmdButton";
+            this.stepIntoCmdButton.Size = new System.Drawing.Size(255, 29);
+            this.stepIntoCmdButton.TabIndex = 4;
+            this.stepIntoCmdButton.Text = "Step Into Cmd";
+            this.stepIntoCmdButton.UseVisualStyleBackColor = true;
             // 
             // valueReturningButton
             // 
-            valueReturningButton.Location = new Point(8, 157);
-            valueReturningButton.Name = "valueReturningButton";
-            valueReturningButton.Size = new Size(223, 23);
-            valueReturningButton.TabIndex = 3;
-            valueReturningButton.Text = "Returning Value Mathod";
-            valueReturningButton.UseVisualStyleBackColor = true;
-            valueReturningButton.Click += valueReturningButton_Click;
+            this.valueReturningButton.Location = new System.Drawing.Point(9, 190);
+            this.valueReturningButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.valueReturningButton.Name = "valueReturningButton";
+            this.valueReturningButton.Size = new System.Drawing.Size(255, 29);
+            this.valueReturningButton.TabIndex = 3;
+            this.valueReturningButton.Text = "Returning Value Mathod";
+            this.valueReturningButton.UseVisualStyleBackColor = true;
             // 
             // outputPraramButton
             // 
-            outputPraramButton.Location = new Point(8, 112);
-            outputPraramButton.Name = "outputPraramButton";
-            outputPraramButton.Size = new Size(223, 23);
-            outputPraramButton.TabIndex = 2;
-            outputPraramButton.Text = "Using Output Param";
-            outputPraramButton.UseVisualStyleBackColor = true;
-            outputPraramButton.Click += outputPraramButton_Click;
+            this.outputPraramButton.Location = new System.Drawing.Point(9, 136);
+            this.outputPraramButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.outputPraramButton.Name = "outputPraramButton";
+            this.outputPraramButton.Size = new System.Drawing.Size(255, 29);
+            this.outputPraramButton.TabIndex = 2;
+            this.outputPraramButton.Text = "Using Output Param";
+            this.outputPraramButton.UseVisualStyleBackColor = true;
             // 
             // passingArgumentMethod
             // 
-            passingArgumentMethod.Location = new Point(8, 67);
-            passingArgumentMethod.Name = "passingArgumentMethod";
-            passingArgumentMethod.Size = new Size(223, 23);
-            passingArgumentMethod.TabIndex = 1;
-            passingArgumentMethod.Text = "Passing an Argument";
-            passingArgumentMethod.UseVisualStyleBackColor = true;
-            passingArgumentMethod.Click += passingArgumentMethod_Click;
+            this.passingArgumentMethod.Location = new System.Drawing.Point(9, 82);
+            this.passingArgumentMethod.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.passingArgumentMethod.Name = "passingArgumentMethod";
+            this.passingArgumentMethod.Size = new System.Drawing.Size(255, 29);
+            this.passingArgumentMethod.TabIndex = 1;
+            this.passingArgumentMethod.Text = "Passing an Argument";
+            this.passingArgumentMethod.UseVisualStyleBackColor = true;
             // 
             // creatingCallingMethodsButton
             // 
-            creatingCallingMethodsButton.Location = new Point(8, 22);
-            creatingCallingMethodsButton.Name = "creatingCallingMethodsButton";
-            creatingCallingMethodsButton.Size = new Size(223, 23);
-            creatingCallingMethodsButton.TabIndex = 0;
-            creatingCallingMethodsButton.Text = "Createing + Calling Methods";
-            creatingCallingMethodsButton.UseVisualStyleBackColor = true;
-            creatingCallingMethodsButton.Click += creatingCallingMethodsButton_Click;
+            this.creatingCallingMethodsButton.Location = new System.Drawing.Point(9, 28);
+            this.creatingCallingMethodsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.creatingCallingMethodsButton.Name = "creatingCallingMethodsButton";
+            this.creatingCallingMethodsButton.Size = new System.Drawing.Size(255, 29);
+            this.creatingCallingMethodsButton.TabIndex = 0;
+            this.creatingCallingMethodsButton.Text = "Createing + Calling Methods";
+            this.creatingCallingMethodsButton.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(joesAutoButton);
-            groupBox2.Controls.Add(kineticEnergyButton);
-            groupBox2.Controls.Add(button1);
-            groupBox2.Controls.Add(retailPriceCalcButton);
-            groupBox2.Location = new Point(272, 12);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(240, 426);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Programming Problem";
+            this.groupBox2.Controls.Add(this.joesAutoButton);
+            this.groupBox2.Controls.Add(this.kineticEnergyButton);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.retailPriceCalcButton);
+            this.groupBox2.Location = new System.Drawing.Point(311, 15);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(274, 540);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Programming Problem";
             // 
             // joesAutoButton
             // 
-            joesAutoButton.Location = new Point(9, 157);
-            joesAutoButton.Name = "joesAutoButton";
-            joesAutoButton.Size = new Size(223, 23);
-            joesAutoButton.TabIndex = 4;
-            joesAutoButton.Text = "Joe's Automotive";
-            joesAutoButton.UseVisualStyleBackColor = true;
-            joesAutoButton.Click += joesAutoButton_Click;
+            this.joesAutoButton.Location = new System.Drawing.Point(10, 189);
+            this.joesAutoButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.joesAutoButton.Name = "joesAutoButton";
+            this.joesAutoButton.Size = new System.Drawing.Size(255, 29);
+            this.joesAutoButton.TabIndex = 4;
+            this.joesAutoButton.Text = "Joe\'s Automotive";
+            this.joesAutoButton.UseVisualStyleBackColor = true;
             // 
             // kineticEnergyButton
             // 
-            kineticEnergyButton.Location = new Point(9, 112);
-            kineticEnergyButton.Name = "kineticEnergyButton";
-            kineticEnergyButton.Size = new Size(223, 23);
-            kineticEnergyButton.TabIndex = 3;
-            kineticEnergyButton.Text = "Kinetic Energy";
-            kineticEnergyButton.UseVisualStyleBackColor = true;
-            kineticEnergyButton.Click += kineticEnergyButton_Click;
+            this.kineticEnergyButton.Location = new System.Drawing.Point(10, 135);
+            this.kineticEnergyButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.kineticEnergyButton.Name = "kineticEnergyButton";
+            this.kineticEnergyButton.Size = new System.Drawing.Size(255, 29);
+            this.kineticEnergyButton.TabIndex = 3;
+            this.kineticEnergyButton.Text = "Kinetic Energy";
+            this.kineticEnergyButton.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(9, 67);
-            button1.Name = "button1";
-            button1.Size = new Size(223, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Falling Distance";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(10, 81);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(255, 29);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Falling Distance";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // retailPriceCalcButton
             // 
-            retailPriceCalcButton.Location = new Point(9, 21);
-            retailPriceCalcButton.Name = "retailPriceCalcButton";
-            retailPriceCalcButton.Size = new Size(223, 23);
-            retailPriceCalcButton.TabIndex = 1;
-            retailPriceCalcButton.Text = "Retail Price Calculator";
-            retailPriceCalcButton.UseVisualStyleBackColor = true;
-            retailPriceCalcButton.Click += retailPriceCalcButton_Click;
+            this.retailPriceCalcButton.Location = new System.Drawing.Point(10, 27);
+            this.retailPriceCalcButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.retailPriceCalcButton.Name = "retailPriceCalcButton";
+            this.retailPriceCalcButton.Size = new System.Drawing.Size(255, 29);
+            this.retailPriceCalcButton.TabIndex = 1;
+            this.retailPriceCalcButton.Text = "Retail Price Calculator";
+            this.retailPriceCalcButton.UseVisualStyleBackColor = true;
+            // 
+            // modularizingInputValidationButton
+            // 
+            this.modularizingInputValidationButton.Location = new System.Drawing.Point(6, 244);
+            this.modularizingInputValidationButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.modularizingInputValidationButton.Name = "modularizingInputValidationButton";
+            this.modularizingInputValidationButton.Size = new System.Drawing.Size(255, 29);
+            this.modularizingInputValidationButton.TabIndex = 7;
+            this.modularizingInputValidationButton.Text = "Modularizing Input Validation";
+            this.modularizingInputValidationButton.UseVisualStyleBackColor = true;
+            this.modularizingInputValidationButton.Click += new System.EventHandler(this.modularizingInputValidationButton_Click);
             // 
             // Main
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(523, 450);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            Name = "Main";
-            Text = "Main";
-            groupBox1.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(598, 570);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "Main";
+            this.Text = "Main";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -213,5 +232,6 @@
         private Button kineticEnergyButton;
         private Button button1;
         private Button joesAutoButton;
+        private Button modularizingInputValidationButton;
     }
 }
