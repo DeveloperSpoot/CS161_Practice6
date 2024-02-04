@@ -40,7 +40,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.joesAutoButton = new System.Windows.Forms.Button();
             this.kineticEnergyButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.fallingDistance = new System.Windows.Forms.Button();
             this.retailPriceCalcButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -118,6 +118,7 @@
             this.valueReturningButton.TabIndex = 3;
             this.valueReturningButton.Text = "Returning Value Mathod";
             this.valueReturningButton.UseVisualStyleBackColor = true;
+            this.valueReturningButton.Click += new System.EventHandler(this.valueReturningButton_Click);
             // 
             // outputPraramButton
             // 
@@ -128,6 +129,7 @@
             this.outputPraramButton.TabIndex = 2;
             this.outputPraramButton.Text = "Using Output Param";
             this.outputPraramButton.UseVisualStyleBackColor = true;
+            this.outputPraramButton.Click += new System.EventHandler(this.outputPraramButton_Click);
             // 
             // passingArgumentMethod
             // 
@@ -138,6 +140,7 @@
             this.passingArgumentMethod.TabIndex = 1;
             this.passingArgumentMethod.Text = "Passing an Argument";
             this.passingArgumentMethod.UseVisualStyleBackColor = true;
+            this.passingArgumentMethod.Click += new System.EventHandler(this.passingArgumentMethod_Click);
             // 
             // creatingCallingMethodsButton
             // 
@@ -148,12 +151,13 @@
             this.creatingCallingMethodsButton.TabIndex = 0;
             this.creatingCallingMethodsButton.Text = "Createing + Calling Methods";
             this.creatingCallingMethodsButton.UseVisualStyleBackColor = true;
+            this.creatingCallingMethodsButton.Click += new System.EventHandler(this.creatingCallingMethodsButton_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.joesAutoButton);
             this.groupBox2.Controls.Add(this.kineticEnergyButton);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.fallingDistance);
             this.groupBox2.Controls.Add(this.retailPriceCalcButton);
             this.groupBox2.Location = new System.Drawing.Point(311, 15);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -173,6 +177,7 @@
             this.joesAutoButton.TabIndex = 4;
             this.joesAutoButton.Text = "Joe\'s Automotive";
             this.joesAutoButton.UseVisualStyleBackColor = true;
+            this.joesAutoButton.Click += new System.EventHandler(this.joesAutoButton_Click);
             // 
             // kineticEnergyButton
             // 
@@ -183,16 +188,18 @@
             this.kineticEnergyButton.TabIndex = 3;
             this.kineticEnergyButton.Text = "Kinetic Energy";
             this.kineticEnergyButton.UseVisualStyleBackColor = true;
+            this.kineticEnergyButton.Click += new System.EventHandler(this.kineticEnergyButton_Click);
             // 
-            // button1
+            // fallingDistance
             // 
-            this.button1.Location = new System.Drawing.Point(10, 81);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(255, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Falling Distance";
-            this.button1.UseVisualStyleBackColor = true;
+            this.fallingDistance.Location = new System.Drawing.Point(10, 81);
+            this.fallingDistance.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.fallingDistance.Name = "fallingDistance";
+            this.fallingDistance.Size = new System.Drawing.Size(255, 29);
+            this.fallingDistance.TabIndex = 2;
+            this.fallingDistance.Text = "Falling Distance";
+            this.fallingDistance.UseVisualStyleBackColor = true;
+            this.fallingDistance.Click += new System.EventHandler(this.fallingDistance_Click);
             // 
             // retailPriceCalcButton
             // 
@@ -203,6 +210,7 @@
             this.retailPriceCalcButton.TabIndex = 1;
             this.retailPriceCalcButton.Text = "Retail Price Calculator";
             this.retailPriceCalcButton.UseVisualStyleBackColor = true;
+            this.retailPriceCalcButton.Click += new System.EventHandler(this.retailPriceCalcButton_Click);
             // 
             // Main
             // 
@@ -233,7 +241,7 @@
         private Button passingArgumentMethod;
         private Button retailPriceCalcButton;
         private Button kineticEnergyButton;
-        private Button button1;
+        private Button fallingDistance;
         private Button joesAutoButton;
         private Button modularizingInputValidationButton;
     }

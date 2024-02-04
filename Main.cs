@@ -1,3 +1,4 @@
+using CS161_Practice6.Programming_Problems;
 using CS161_Practice6.Tutorials;
 
 namespace CS161_Practice6
@@ -41,10 +42,10 @@ namespace CS161_Practice6
 
         private void retailPriceCalcButton_Click(object sender, EventArgs e)
         {
-
+            Retail_Price_Calculator form = new Retail_Price_Calculator();
+            form.Show();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void fallingDistance_Click(object sender, EventArgs e)
         {
 
         }
