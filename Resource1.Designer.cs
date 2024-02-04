@@ -61,32 +61,32 @@ namespace CS161_Practice6 {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] _10_Hearts {
+        internal static System.Drawing.Bitmap _10_Hearts {
             get {
                 object obj = ResourceManager.GetObject("_10_Hearts", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Ace_Spades {
+        internal static System.Drawing.Bitmap Ace_Spades {
             get {
                 object obj = ResourceManager.GetObject("Ace_Spades", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] King_Clubs {
+        internal static System.Drawing.Bitmap King_Clubs {
             get {
                 object obj = ResourceManager.GetObject("King_Clubs", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

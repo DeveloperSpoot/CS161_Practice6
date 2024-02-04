@@ -27,21 +27,21 @@ namespace CS161_Practice6.Tutorials
             switch(card)
             {
                 case "Ace of Spades":
-                    cardPictureBox.Image = (Bitmap)Resource1.ResourceManager.GetObject("Ace_Spades.png");
+                    cardPictureBox.Image = Resource1.Ace_Spades;
                     break;
 
                 case "10 of Hearts":
-                    cardPictureBox.Image = (Bitmap)Resource1.ResourceManager.GetObject("10_Hearts");
+                    cardPictureBox.Image = Resource1._10_Hearts;
                     break;
 
                 case "King of Clubs":
-                    cardPictureBox.Image = (Bitmap)Resource1.ResourceManager.GetObject("King_Clubs");
+                    cardPictureBox.Image = Resource1.King_Clubs;
                     break;
             }
 
         }
 
-        private void exitButton_Click(object sender, EventArgs e)
+        private void exitButton_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
