@@ -17,7 +17,8 @@ namespace CS161_Practice6
 
         private void passingArgumentMethod_Click(object sender, EventArgs e)
         {
-
+            Passing_Arguments form = new Passing_Arguments();
+            form.Show();
         }
 
         private void outputPraramButton_Click(object sender, EventArgs e)
