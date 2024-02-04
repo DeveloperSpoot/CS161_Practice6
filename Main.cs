@@ -47,6 +47,8 @@ namespace CS161_Practice6
         }
         private void fallingDistance_Click(object sender, EventArgs e)
         {
+            Distance_Falling form = new Distance_Falling();
+            form.Show();
 
         }
 
